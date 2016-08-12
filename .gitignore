@@ -16,8 +16,8 @@ gradlew
 gradlew.bat
 .idea/
 build/
-web/build/
-web/src/test/
+modules/web/build/
+modules/web/src/test/
 
 
 

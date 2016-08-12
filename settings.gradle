@@ -17,7 +17,7 @@ include 'services:webservice'
 */
 
 rootProject.name = 'ly-security'
-include 'domain'
-include 'api'
-include 'web'
+include 'modules:domain'
+include 'modules:api'
+include 'modules:web'
 
