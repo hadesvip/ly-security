@@ -14,6 +14,10 @@ hs_err_pid*
 gradle/
 gradlew
 gradlew.bat
+.idea/
+build/
+web/build/
+web/src/test/
 
 
 
