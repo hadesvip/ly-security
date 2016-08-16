@@ -1,14 +1,27 @@
-group 'tc.ly'
+group 'com.tc.ly'
 version '0.0.1-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    //依赖domain模块
+    compile project(":modules:domain")
+
+    compile("org.springframework:spring-context")
+    compile("mysql:mysql-connector-java")
+    compile("org.mybatis:mybatis")
+    compile("org.mybatis:mybatis-spring")
+    compile("org.springframework:spring-tx")
+    compile("org.springframework:spring-jdbc")
+    compile("com.alibaba:druid")
 }
