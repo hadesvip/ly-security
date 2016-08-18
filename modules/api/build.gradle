@@ -24,4 +24,6 @@ dependencies {
     compile("org.springframework:spring-tx")
     compile("org.springframework:spring-jdbc")
     compile("com.alibaba:druid")
+    compile("org.mongodb:mongo-java-driver")
+    compile("redis.clients:jedis")
 }

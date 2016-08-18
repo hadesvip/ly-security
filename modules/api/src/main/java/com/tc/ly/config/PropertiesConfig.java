@@ -18,7 +18,6 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
  * Created by wangyong on 2016/8/16.
  */
 @Configuration
-@PropertySource({"classpath:api.properties"})
 public class PropertiesConfig {
 
     /**
