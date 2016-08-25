@@ -13,4 +13,11 @@ public class HomeController {
     public String home() {
         return "hello,springBoot...";
     }
+
+
+    @RequestMapping("/user")
+    public String user() {
+
+        return "hello,admin...";
+    }
 }

@@ -39,6 +39,7 @@ public class MybatisConfig {
         Resource[] resources = resolver.getResources("classpath:mapper/*.xml");
 
         sqlSessionFactoryBean.setMapperLocations(resources);
+        sqlSessionFactoryBean.setDataSource(dataSource);
 
         return sqlSessionFactoryBean;
     }

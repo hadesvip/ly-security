@@ -57,6 +57,7 @@ dependencyManagement {
     def droolsKieVersion = '6.3.0.Final'
     def servletVersion = '3.0-alpha-1'
     def turbomqVersion = '3.2.6'
+    def fastJsonVersion = '1.2.15'
 
 
     dependencies {
@@ -80,6 +81,7 @@ dependencyManagement {
         dependency "com.ly.turbomq:turbomq-client:${turbomqVersion}"
         dependency "org.drools:drools-compiler:${droolsKieVersion}"
         dependency "org.kie:kie-ci:${droolsKieVersion}"
+        dependency "com.alibaba:fastjson:${fastJsonVersion}"
     }
 }
 

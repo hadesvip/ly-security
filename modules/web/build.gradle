@@ -36,7 +36,14 @@ dependencies {
 //	compile('org.springframework.boot:spring-boot-starter-data-redis')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-jersey')
     compile("org.springframework:spring-aspects")
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    //devtools
+    compile("org.springframework.boot:spring-boot-devtools")
+
+    //fastjson
+    compile("com.alibaba:fastjson")
 }
 

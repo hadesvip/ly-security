@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ly-security-web
+    description: ${application.name}业务风控项目web层
+  thymeleaf:
+    cache: false
+logging:
+  level:
+      root: warn
+      org.springframework.web: DEBUG
